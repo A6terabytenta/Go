@@ -1,0 +1,25 @@
+go get -u gitlab.com/muziverse/common/proto/-/tree/develop/game-content-proto-api/src/main/go-grpc
+
+go get -u git@gitlab.com:muziverse/common/proto/-/tree/develop/game-content-proto-api/src/main/go-grpc
+
+git@gitlab.com:muziverse/common/proto.git
+
+
+go get -u gitlab.com/muziverse/common/proto && echo Success!
+
+go get -u gitlab.com/muziverse/common/proto/avatar-proto-api/src/main/go/io.muziverse/proto/avatar@v1.0.0-SNAPSHOT.87
+
+go get -u gitlab.com/muziverse/common/proto/avatar-proto-api/src/main/go/io.muziverse/proto/avatar@v1.0.0-SNAPSHOT.87
+
+go get -u github.com/fraugster/parquet-go/parquet@v0.5.0
+
+1. Configure you git to add extra header with your private token:
+git config --global http.extraheader "PRIVATE-TOKEN: glpat-VBZwk8qjnynp-syJrBuB"
+
+git config --global --unset http.extraheader
+
+git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"
+
+git config --global --unset url."git@gitlab.com:".insteadOf
+
+glpat-VBZwk8qjnynp-syJrBuB
