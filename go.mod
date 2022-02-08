@@ -1,8 +1,8 @@
-module Project-01
+module Go
 
 go 1.17
 
-require {
+require (
 	Project-01 v0.0.1
 	Project-02 v0.0.1
-}
+)
