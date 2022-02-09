@@ -1,3 +1,3 @@
-module github.com/A6terabytenta/Go/matchmaker
+module github.com/ntatvr/Go/matchmaker
 
 go 1.17

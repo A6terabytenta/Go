@@ -1,5 +1,5 @@
-module github.com/A6terabytenta/Go
+module github.com/ntatvr/Go
 
 go 1.17
 
-require github.com/A6terabytenta/Go/matchmaker v0.0.3 // indirect
+require github.com/ntatvr/Go/matchmaker v0.0.3 // indirect

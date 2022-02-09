@@ -14,11 +14,14 @@ go get -u gitlab.com/muziverse/common/proto/avatar-proto-api/src/main/go/io.muzi
 go get -u github.com/fraugster/parquet-go/parquet@v0.5.0
 
 1. Configure you git to add extra header with your private token:
-git config --global http.extraheader "PRIVATE-TOKEN: glpat-VBZwk8qjnynp-syJrBuB"
+git config --global http.extraheader "PRIVATE-TOKEN: glpat-jdC-wCD6XTmiLMSiy3yK"
 
 git config --global --unset http.extraheader
 
 git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"
+git config --global git@gitlab.com:.insteadOf https://gitlab.com/
+
+git config --global url."ssh://git@gitlab.com/".insteadOf "https://gitlab.com/"
 
 git config --global --unset url."git@gitlab.com:".insteadOf
 
@@ -29,3 +32,6 @@ glpat-VBZwk8qjnynp-syJrBuB
 473  git push origin --delete $(git tag -l)
 474  git tag -d $(git tag -l)
 475  git tag -l
+
+
+GOPRIVATE=gitlab.com go get gitlab.com/muziverse/common/proto/avatar-proto-api/src/main/go/io.muziverse/proto/avatar@v1.0.0-SNAPSHOT.88
